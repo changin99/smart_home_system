@@ -22,6 +22,6 @@
 
 ```bash
 # 클론 레포지토리
-git clone https://github.com/yourusername/smart-home-system.git
+git clone https://github.com/changin99/smart-home-system.git
 # 프로그램 실행
 java Main.java
