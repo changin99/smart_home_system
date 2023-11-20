@@ -1,4 +1,5 @@
-public class Thermostat implements Device {
+// Thermostat 클래스
+public class Thermostat implements Device { 
     private int temperature;
     private static final int MIN_TEMP = 10; // 최소 온도
     private static final int MAX_TEMP = 30; // 최대 온도
@@ -17,7 +18,7 @@ public class Thermostat implements Device {
 
     @Override
     public void performAction() {
-        System.out.println("Thermostat is set to " + temperature + " degrees");
+        System.out.println("Thermostat is set to " + temperature + " degrees"); // 온도 조절기 관련 액션 구현
     }
 }
 
